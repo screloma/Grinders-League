@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href='{% static "leaderboard.css" %}' />
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Leaderboardn</title>
+</head>
+{% if user.is_authenticated %}
+<body>
+    <form action = "{% url 'addUser' %}">
+        <input type="submit" value="Add User">
+    </form>
+    <form action="/addUser/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit" />
+    </form>
+    <table>
+        <tr>
+            <th>Player Name</th>
+            <th>Hands Count</th>
+            <th>Hours Count</th>
+        </tr>
+        <a href="#">{{players.leaderboard}}</a>
+        {% for item in players %}
+        <tr> 
+            <td>{{ item.name }}</td>
+            <td>{{ item.hrs_cnt }}</td>
+            <td>{{ item.hands_cnt }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h1>Welcome to the Poker Community Leaderboard!, {{user.username}}</h1>
+</body>
+{% endif %}
+</html>

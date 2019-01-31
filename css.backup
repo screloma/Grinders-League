@@ -1,0 +1,141 @@
+html, body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: auto;
+    max-width: 960px;
+    max-height: 100%;
+    margin: auto;
+}
+
+
+form {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+input {
+    position: relative;
+    bottom: 8px;
+    height: 28px;
+}
+
+.tablewrapper{
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Georgia', serif; margin: 0;
+    background: #eee;
+}
+a, h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50;
+    color: #377BA8;
+}
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 16%;
+    top: 3%;
+}
+
+.hl_label{
+    position: absolute;
+    top: 64%;
+    left: 5%;
+}
+
+.hrl_label{
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+
+.handsleague{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+h1 {
+    border-bottom: 2px solid #eee;
+}
+h2 {
+    font-size: 1.2em;
+}
+
+.username {
+    color:red;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+
+input {
+     width: auto;
+}
+
+input {
+    background: #eee !important;
+    width: auto;
+}
+
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+table {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  border: 3px solid #000000;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+label{
+    font-size: 40px;
+}
+
+th {
+  background-color: #000000;
+  color: rgba(255,255,255,0.66);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+tr:nth-of-type(2)>td {
+    background-color: #f9ea3e;
+}
+tr:nth-of-type(3)>td {
+    background-color :#d1d2d3;
+}
+
+tr:nth-of-type(4)>td {
+    background-color :#CD7F32;
+}
+td {
+  background-color: #f9f9f9;
+}
+
+
+th, td {
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+
+header {
+    height: 100px;
+}

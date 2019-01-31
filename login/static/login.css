@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+}
+
+input {
+}
+body {
+    font-family: 'Georgia', serif; margin: 0;
+    background: #eee;
+}
+a, h1, h2 {
+    color: #377BA8;
+}
+h1, h2 {
+    font-family: 'Georgia', serif; margin: 0;
+}
+h1 {
+    border-bottom: 2px solid #eee;
+}
+h2 {
+    position: absolute;
+    left: 46%;
+    top: 10%;
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+}
+
+input {
+     width: auto;
+}
+
+input {
+    background: #eee !important;
+    width: auto;
+}
+
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+table {
+  border: 2px solid #42b983;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+th {
+  background-color: #42b983;
+  color: rgba(255,255,255,0.66);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+th, td {
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+header {
+    height: 100px;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+form {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    justify-content: space-around;
+}
+
+.loginButton, .registerButton {
+    max-width: 210px;
+    color: #eee;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    top: 19px;
+    border: 2px solid #6f6f6f;
+    padding: 10px;
+    margin-top: 12px;
+    background-color: #42b983;
+
+}
+
+.signupButton{
+  width: 100px;
+  height: 100px;
+}
+.registerButton {
+  position: absolute;
+  top: 80%;
+  left: 44.5%;
+}
+
+input[type='password'] {
+    margin-bottom: 7px;
+}
+
+input[value="Register"] {
+    max-width: 250px;
+}
+
+button {
+    border: 1px solid #42b983;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+input {
+    font-size: 15px;
+    color: #42b983;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #42b983 inset;
+    -webkit-text-fill-color: #eee;
+}
+
+#inner-editor {
+    background-color: #eee;
+}
+
+span {
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 15px;
+    margin-top: 10px;
+}
